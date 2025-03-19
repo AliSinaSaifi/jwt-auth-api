@@ -6,17 +6,16 @@ User Login: Generates a JWT token upon successful authentication.
 Protected Dashboard Route: Requires a valid JWT token to access.
 Error Handling: Custom error handlers for authentication and validation errors.
 
-## Project Structure
+## Technologies Used
 
-Technologies Used
 Node.js (JavaScript runtime)
 Express.js (Web framework)
 jsonwebtoken (JWT) (Authentication)
 dotenv (Environment variables)
 
 ## Project Structure
-
-starter/
+```
+jwt-auth-api/
 │── controllers/
 │   └── main.js             # Contains login and dashboard logic
 │── errors/
@@ -35,6 +34,7 @@ starter/
 │── .gitignore               # Files to be ignored by Git
 │── app.js                   # Main entry point
 │── package.json             # Dependencies and scripts
+```
 
 ## Installation
 
